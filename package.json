@@ -1,0 +1,31 @@
+{
+  "name": "Discord Shadowban",
+  "description": "Shadowban People from Discord",
+  "version": "0.1",
+  "keywords": [
+    "discord",
+    "discord.js"
+  ],
+  "maintainers": [
+    {
+      "name": "Michael Chang",
+      "email": "michael@mchang.name",
+      "web": "https://mchang.name"
+    }
+  ],
+  "dependencies": {
+    "https://discord.js.org/#/": "11.4.2"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:mchangrh/discord-shadowban.git"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "ISC",
+      "url": "https://opensource.org/licenses/ISC"
+    }
+  ]
+}
