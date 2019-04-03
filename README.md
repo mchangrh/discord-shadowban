@@ -6,6 +6,12 @@ Delete any and all messages after they're sent, all powered by discord.js
 
 dependencies: (discord.js)[discord.js.org]
 
+## Invite link:
+https://discordapp.com/api/oauth2/authorize?client_id=`client id`&permissions=73728&scope=bot
+
+Permissions:
+Manage Messages and Read Message History
+
 ## Config: 
  `name:` Name the bot whatever you want
  `users:` IDs of users you want to shadowban
