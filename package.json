@@ -1,31 +1,29 @@
 {
-  "name": "Discord Shadowban",
+  "name": "discord-shadowban",
+  "version": "0.1.1",
   "description": "Shadowban People from Discord",
-  "version": "0.1",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "enve": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchangrh/discord-shadowban.git"
+  },
   "keywords": [
     "discord",
     "discord.js"
   ],
-  "maintainers": [
-    {
-      "name": "Michael Chang",
-      "email": "michael@mchang.name",
-      "web": "https://mchang.name"
-    }
-  ],
-  "dependencies": {
-    "https://discord.js.org/#/": "11.4.2"
+  "author": "Michael Chang <michael@mchang.name> (https://mchang.name)",
+  "license": "ISC",
+  "eslint": "eslint --ignore-path .gitignore .",
+  "bugs": {
+    "url": "https://github.com/mchangrh/discord-shadowban/issues"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git@github.com:mchangrh/discord-shadowban.git"
-    }
-  ],
-  "licenses": [
-    {
-      "name": "ISC",
-      "url": "https://opensource.org/licenses/ISC"
-    }
-  ]
+  "homepage": "https://github.com/mchangrh/discord-shadowban#readme"
 }
