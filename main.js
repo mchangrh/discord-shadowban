@@ -1,5 +1,6 @@
 // imports
 const Discord = require('discord.js');
+require('dotenv').config()
 require('enve');
 
 // create client
@@ -24,16 +25,15 @@ client.on('message', message => {
 // login
 client.login(process.enve.TOKEN);
 
-
 function logMessage(message) {
     // check log level and log accordingly
     // loglevel 1 and above
-    if ( process.enve.level >= 1 ) {
+    if ( process.enve.LOGLEVEL >= 1 ) {
         console.log(`${message.createdAt} - Deleted message from ${message.author.username}`);
     }
     // loglevel 2
-    if ( process.enve.level == 2 ) {
-        console.log(`message - ${message.content}`);
+    if ( process.enve.LOGLEVEL == 2 ) {
+        console.log(`message: \`${message.content}\``);
     }
 }
 
