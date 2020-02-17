@@ -4,10 +4,10 @@ Why ban your users when you can instead shadowban them?
 
 Delete any and all messages after they're sent, all powered by discord.js
 
-dependencies: [discord.js](discord.js.org)
+dependencies: [discord.js](discord.js.org), [dotenv](https://www.npmjs.com/package/dotenv)
 
 ## Invite link:
-https://discordapp.com/api/oauth2/authorize?clientid= `client id`&permissions=73728&scope=bot
+https://discordapp.com/api/oauth2/authorize?clientid=`client id`&permissions=73728&scope=bot
 
 Permissions:
 Manage Messages and Read Message History

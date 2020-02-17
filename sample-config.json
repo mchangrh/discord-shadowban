@@ -1,7 +1,0 @@
-{
-    "name": "shadowbot",
-    "users": ["poorsoul1", "poorsoul2"],
-    "status": "online",
-    "loglevel": 2,
-    "token":"mysupersecrettoken"
-}
