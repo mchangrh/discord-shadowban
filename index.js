@@ -6,25 +6,16 @@ require('enve')
 const client = new Discord.Client()
 client.on('ready', () => {
   console.log('Ready')
-  client.user.setPresence({ // set presence
-    game: {
-      name: process.enve.NAME
-    },
+  client.user.setPresence({ // set presencez
     status: process.enve.STATUS
   })
 })
-client.on('message', message => { // trigger on message
-  checkMessage(message)
-})
+client.on('message', message => checkMessage(message))
 client.login(process.enve.TOKEN)
 
 function logMessage (message) {
-  if (process.enve.LOGLEVEL >= 1) {
-    console.log(`${message.createdAt} - Deleted message from ${message.author.username}`)
-  }
-  if (process.enve.LOGLEVEL === 2) {
-    console.log(`message: \`${message.content}\``)
-  }
+  if (process.enve.LOGLEVEL >= 1) console.log(`${message.createdAt} - Deleted message from ${message.author.username}`)
+  if (process.enve.LOGLEVEL === 2) console.log(`message: \`${message.content}\``)
 }
 
 function checkMessage (message) {
